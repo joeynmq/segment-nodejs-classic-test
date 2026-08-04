@@ -1,6 +1,6 @@
-# 🚀 Segment Node.js Testing Environment
+# 🚀 Segment Node.js Classic Testing Environment
 
-Welcome to our shared testing playground for the Segment [Node.js](https://www.twilio.com/docs/segment/connections/sources/catalog/libraries/server/node) library (`analytics-node`). This environment is pre-configured to build automatically inside **GitHub Codespaces**, completely removing the need for local Node setup or external sandboxes.
+Welcome to our shared testing playground for the Segment [Node.js Classic]([https://www.twilio.com/docs/segment/connections/sources/catalog/libraries/server/node](https://www.twilio.com/docs/segment/connections/sources/catalog/libraries/server/node/classic)) library (`analytics-node`). This environment is pre-configured to build automatically inside **GitHub Codespaces**, completely removing the need for local Node setup or external sandboxes.
 
 ---
 
