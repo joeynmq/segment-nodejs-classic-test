@@ -1,5 +1,5 @@
 {
-  "name": "Segment Node.js Testing",
+  "name": "Segment Node.js Classic Testing",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
   
   // Automatically installs analytics-node when the container loads
