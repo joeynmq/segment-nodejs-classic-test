@@ -11,7 +11,7 @@ This master repository is configured as **Read-Only** to preserve the core templ
 ### One-Click Launch
 Click the badge below to automatically fork this repository and spin up your personal testing instance instantly:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/joeynmq/segment-nodejs-test)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/joeynmq/segment-nodejs-classic-test)
 *(Tip: **Cmd/Ctrl + Click** to open the Codespace in a new tab!)*
 
 ---
