@@ -1,22 +1,34 @@
 const Analytics = require('analytics-node');
 
-// Pulls from an environment variable, or falls back to your test key if blank
+// Retrieve write key from environment variable with fallback placeholder
 const writeKey = process.env.SEGMENT_WRITE_KEY || 'XXXXXX';
 const analytics = new Analytics(writeKey);
 
+// 1. Identify Event: Associate user traits
 analytics.identify({
-  anonymousId: '48d213bb-95c3-4f8d-af97-86b2b404dcfe',
+  userId: 'asgardian_001',
   traits: {
-    friends: 42
+    name: 'Thor Odinson',
+    email: 'thor@asgard.realm',
+    hero_alias: 'God of Thunder',
+    realm_of_origin: 'Asgard',
+    weapon_of_choice: 'Mjolnir',
+    worthy: true
   }
 });
 
+// 2. Track Event: Record a user action
 analytics.track({
-  anonymousId: '48d213bb-95c3-4f8d-af97-86b2b404dcfe',
-  event: 'Item Purchased',
+  userId: 'asgardian_001',
+  event: 'Bifrost Transport Executed',
   properties: {
-    revenue: 39.95,
-    shippingMethod: '2-day'
+    origin_realm: 'Asgard',
+    destination_realm: 'Midgard (Earth)',
+    travel_time_seconds: 1.2,
+    lightning_intensity_gw: 1.21,
+    heimdall_notified: true,
+    environment: 'GitHub Codespaces',
+    language: 'Node.js'
   }
 });
 
