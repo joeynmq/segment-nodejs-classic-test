@@ -63,11 +63,11 @@ npm start
 
 ## 📦 What's Inside?
 - `index.js`: The main execution script triggering Segment events.
+- `package.json`: Tracks library dependencies like `analytics-node`.
 - `.devcontainer/devcontainer.json`: The container architecture file ensuring everyone on the team runs on the exact same Node.js runtime environment.
-- `package.json`: Tracks library dependencies like analytics-node.
 
 ---
 
 ## 💡 Troubleshooting & Tips
-- Checking Payloads: Remember to keep your target Segment Source Debugger open in your browser before running `npm start` so you can watch the incoming events populate in real-time.
-- Saving Your Work: Since GitHub automatically creates a personal fork for you, any changes you make to `index.js` (like hardcoding a key) can be saved and committed directly to your personal GitHub profile if you wish to reference them later.
+- **Checking Payloads:** Remember to keep your target Segment Source Debugger open in your browser before running `npm start` so you can watch the incoming events populate in real-time.
+- **Saving Your Work:** Since GitHub automatically creates a personal fork for you, any changes you make to `index.js` (like hardcoding a key) can be saved and committed directly to your personal GitHub profile if you wish to reference them later.
